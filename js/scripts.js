@@ -39,7 +39,7 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $("#work2").mouseover(function(){
+  $("#img2").mouseover(function(){
     $("#overlay2").show();
   }).mouseout(function(){
     $("#overlay2").hide();
