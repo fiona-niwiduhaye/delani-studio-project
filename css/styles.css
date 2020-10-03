@@ -1,1 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Merienda");
+
+.one{
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top:17%; 
+    font-family:'Merienda one';
+    /* padding-bottom:5%; */
+  }
