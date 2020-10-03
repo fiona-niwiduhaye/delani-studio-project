@@ -46,14 +46,14 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $("#work3").mouseover(function(){
+  $("#img3").mouseover(function(){
     $("#overlay3").show();
   }).mouseout(function(){
     $("#overlay3").hide();
   });
 });
 $(document).ready(function(){
-  $("#work4").mouseover(function(){
+  $("#img4").mouseover(function(){
     $("#overlay4").show();
   }).mouseout(function(){
     $("#overlay4").hide();
@@ -61,22 +61,22 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("#work5").mouseover(function(){
+  $("#img5").mouseover(function(){
     $("#overlay5").show();
   }).mouseout(function(){
     $("#overlay5").hide();
   });
-  $("#work6").mouseover(function(){
+  $("#img6").mouseover(function(){
     $("#overlay6").show();
   }).mouseout(function(){
     $("#overlay6").hide();
   });
-  $("#work7").mouseover(function(){
+  $("#img7").mouseover(function(){
     $("#overlay7").show();
   }).mouseout(function(){
     $("#overlay7").hide();
   });
-  $("#work8").mouseover(function(){
+  $("#img8").mouseover(function(){
     $("#overlay8").show();
   }).mouseout(function(){
     $("#overlay8").hide();
