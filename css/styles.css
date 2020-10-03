@@ -9,5 +9,24 @@
     text-align: center;
     padding-top:17%; 
     font-family:'Merienda one';
-    /* padding-bottom:5%; */
+
+  }
+  .one h1{
+    padding: 3px;
+    margin: 7px;
+  }
+  .landing p{
+    padding: 3px;
+  }
+  #logo{
+    margin-top: 12px;
+    margin-bottom: 25px;
+    width: 73px;
+    height: 73px;;
+  }
+  #mouse-click{
+    padding-top : 20px;
+    margin-top: 12%;
+    padding-bottom: 29px; 
+    
   }
