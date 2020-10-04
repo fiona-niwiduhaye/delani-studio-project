@@ -6,12 +6,15 @@
    <title>Delani Studio Project</title>
    <link rel="stylesheet" href="./css/styles.css" type="text/css">
    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
-   <script   src="https://code.jquery.com/jquery-3.3.0.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-   
+   <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  
 </head>
 <body>
    <div class="one">
-      <img src="./assets/logo/logo.png" alt="Delani's studio logo" >
+      <img src="./assets/logo/logo.png" alt="Delani logo" >
       <h1>WELCOME</h1> 
       <h1> TO DELANI STUDIO</h1>
       <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
@@ -33,7 +36,7 @@
         <p>based on your requirements, we can provide a complete offering or just the piece you need. </p>
       </div>
     </div> 
-    <div class="container what">
+    <div class="container what-we-do">
       <h2 class="two">WHAT WE DO</h2>
       <div class="row">
          <div class="col-md-4">
@@ -76,55 +79,55 @@
       <div class="row" id="portfolio">
         <div class="col-md-3" id="img1">
          <img src="assets/portfolio/work1.jpg" alt="climate_image" width="100%">
-          <p id="overlay"class="text"></p>
+         <p id="overlay" class="text">Climate  Studio</p>
         </div>
         <div class="col-md-3" id="img2">
          <img src="assets/portfolio/work2.jpg" alt="Design image" width="100%">
-         <p id="overlay2" class="text"></p>
+         <p id="overlay2" class="text">Rwanda Design</p>
        </div>
        <div class="col-md-3" id="img3">
          <img src="assets/portfolio/work3.jpg" alt="Ontario Security image" width="100%">
-         <p id="overlay3"class="text"></p>
+         <p id="overlay3"class="text">Ontario Security</p>
        </div>
       
        <div class="col-md-3" id="img4">
          <img src="assets/portfolio/work4.jpg" alt="Design image" width="100%">
-         <p id="overlay4" class="text"></p>
+         <p id="overlay4" class="text">Black Studio</p>
        </div>
       </div>
        <div class="row" id="portfolio">
          <div class="col-md-3" id="img5">
             <img src="assets/portfolio/work5.jpg" alt="chat image" width="100%"> 
-           <p id="overlay" class="text"></p>
+           <p id="overlay5" class="text">Day Wishes</p>
          </div>
          <div class="col-md-3" id="img6">
             <img src="assets/portfolio/work6.jpg" alt="Mobile App " width="100%">
-            <p id="overlay6"class="text"></p>
+            <p id="overlay6"class="text">Studio Calc</p>
           </div>
           <div class="col-md-3" id="img7">
             <img src="assets/portfolio/work7.jpg" alt="Mock-up logo" width="100%">
-            <p id="overlay7" class="text"></p>
+            <p id="overlay7" class="text">Mock up </p>
           </div>
           <div class="col-md-3" id="img8">
             <img src="assets/portfolio/work8.jpg" alt="Giraffe restaurant" width="100%">
-            <p id="overlay8" class="text"></p>
+            <p id="overlay8" class="text">Giraffe Resto</p>
           </div>
         </div>
     </div> 
     <div class="container-fluid contact">
       <h2>CONTACT US</h2>
-      
-      <div class="form-group form-inline">
-        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
-        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
-      </div>
-      <div class="form-group">
-        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
-    </form>
-  </div>
-  <div class="Footer" id="socialMediaIcons">
+      <div class="col-6">
+         <form class="text-white" id="form1">
+            <div class="form-group form-inline">
+              <input type="text" class="form-control input" id="name" placeholder="Enter your Name" required>
+              <input type="email" class="form-control input" id="email" placeholder="Enter your Email" required>
+            </div>
+            <textarea name="name" rows="8" cols="100" id="message" placeholder="Enter Your message here"></textarea>
+            <input type="submit" value="submit" class="text-white">
+          </form>
+         </div>
+    </div>
+          <footer>
    <br><br>
    <!--Twitter-->
    <img src="./assets/social_icons/twitter.png" alt="Twitter icon"><i class="fab fa-lg fa-twitter"></i></a>
@@ -144,10 +147,10 @@
    <img src="assets/social_icons/pinterest.png" alt="Pinterest icon"><i class="fab fa-lg fa-pinterest"></i></a>
    <!--Flickr-->
    <img src="assets/social_icons/flickr.png" alt="Flickr icon"><i class="fab fa-lg fa-flickr"></i></a>
-   
- </div>
-</div>
 
-<script src="js/scripts.js"></script>
+          </footer>
+
 </body>
+
+
 </html>
