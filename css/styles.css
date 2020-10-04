@@ -104,6 +104,7 @@
     font-size: 22px;
     font-family: 'Copse', serif;
   }
+  
   #MERGE1{
     width: 30%;
     margin-left: 18%;
@@ -130,6 +131,9 @@
     display: none;
     font-family: 'Delius Swash Caps', cursive;
     font-size: 16px;
+  }
+  .form-control::-webkit-input-placeholder { 
+    color: white; 
   }
 
   
