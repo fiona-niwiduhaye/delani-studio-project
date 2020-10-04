@@ -70,6 +70,7 @@
     align-items: center;
     margin-left:10%;
   margin-right: 2%;
+  margin-bottom: 5%;
   }
   .col-md-3 img{
     max-width: 100%;
@@ -82,58 +83,90 @@
   }
   .contact{
     background-image: url('../assets/backgrounds/c_image.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+    padding-top: 20px;
+    background-position: cover;
+    width: 100%;
+    margin-top: 3%;
+        
+      }
+
+      .title{
+        padding: 6px;
+      }
+      .contact h2{
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-family: 'Gabriela', serif;
+        color: white;
+      }
+   
+  
+#product, #development, #design{
+    display: none;
+    font-family: 'Copse', serif;
+    font-size: 16px;
+  }
+  #product .title, #development .title, #design .title{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    display: none;
+    color: black;
+    width: 90%;
+    height: 90%;
+    background-color:rgba(255, 255, 255, 0.456);
+    top: 0px;
+    left: 0px;
+    position:absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50%;
+    font-family: 'Delius Swash Caps', cursive;
+  }
+  #form input,#name,#email,#form textarea{
+    width:35%;
+    background-color: transparent;
+  
+  }
+  #name{
+    margin-left: 12%;
     
   }
-  .title{
-    padding: 8px;
-  }
-  .contact h2{
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    font-family: 'Gabriela', serif;
-  }
-  input[type=text],input[type=email],#comment{
-    background: transparent;
-    color: white;
-    font-size: 22px;
-    font-family: 'Copse', serif;
+  #email{
+    margin-left:5%;
+    
   }
   
-  #MERGE1{
-    width: 30%;
-    margin-left: 18%;
-    margin-right: 30px;
+  #email::placeholder{
+    color: white;
   }
-  #MERGE0{
-    width: 30%;
+  
+  #name::placeholder{
+    color: white;
+    font-family: 'Gabriela', serif;
   }
-  #comment{
-    margin-left: 20%;
-    width: 60%;
+  textarea::placeholder{
+    color: white;
+    font-family: 'Gabriela', serif;
   }
-  .footer{
+  #form1 textarea{
+    background-color: transparent;
+    font-family: 'Gabriela', serif;
+    color: white;
+  }
+  input[type=submit]{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+
+  footer{
     text-align: center;
     padding-top: 30px;
     font-family: 'Delius Swash Caps', cursive;
   }
-
-  #product .title, #development .title, #design .title{
-    font-size: 20px;
-    font-weight: 500px;
-  }
-  #product, #development, #design{
-    display: none;
-    font-family: 'Delius Swash Caps', cursive;
-    font-size: 16px;
-  }
-  .form-control::-webkit-input-placeholder { 
-    color: white; 
-  }
-
-  
