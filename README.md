@@ -15,7 +15,7 @@ the services they offer, projects done so far and a contact page that the user c
 
 4. code . or atom . depending on the text editor of your choise.
 
-### live link on Github:
+### live link on Github:https://fiona-niwiduhaye.github.io/delani-studio-project/
 
 ## Behavior Driven Development(BDD)
 
